@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 
-class CartProvider extends ChangeNotifier{
-  int _x=0;
+class CartProvider extends ChangeNotifier {
+  int _x = 0;
   int get x => _x;
-  void incrementX(){
+  void incrementX() {
     _x++;
     notifyListeners();
   }
 
-  void decrementX(){
+  void decrementX() {
     _x--;
     notifyListeners();
   }
